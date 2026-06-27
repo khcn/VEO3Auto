@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@veo3auto/domain": ["packages/domain/src/index.ts"],
+      "@veo3auto/application": ["packages/application/src/index.ts"],
+      "@veo3auto/infrastructure": ["packages/infrastructure/src/index.ts"]
+    }
+  }
+}
